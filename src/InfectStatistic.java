@@ -346,8 +346,8 @@ class InfectStatistic {
 				temString += string1 + "" + patientsHashMap.get(string1) + "人 ";
 				// System.out.print(string + ":" + patientsHashMap.get(string) + " ");
 			}
-			temString.substring(0, temString.length() - 1);
-			System.out.println(temString);
+			temString = temString.substring(0, temString.length() - 1);
+			//System.out.println(temString);
 			temString += "\n";
 			bufferedWriter.write(temString);
 		}
